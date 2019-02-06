@@ -3,14 +3,15 @@ import java.lang.*;
 import java.io.*;
 class EvenOdd {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
 
-        Scanner reader = new Scanner(System.in);
+       Scanner reader = new Scanner(System.in);
         int num = reader.nextInt(); 
         if(num % 2 == 0)
-            System.out.println(num + " is even");
+            System.out.println("even");
         else
-            System.out.println(num + " is odd")
+            System.out.println( "odd")
     }
         
 }
